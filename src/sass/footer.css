@@ -1,0 +1,14 @@
+.footer-title {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 20px;
+  font-family: Open Sans;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.footer-content {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=footer.css.map */

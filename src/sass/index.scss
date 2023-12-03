@@ -1,0 +1,21 @@
+body {
+    background-color: #000
+  };
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+@import './common';
+@import './container';
+@import './header';
+@import './hero';
+@import './discount';
+@import './tabs';
+@import './slider-one';
+@import './slider-bg';
+@import './tabs2';
+@import './slider-tree';
+@import './location';
+@import './footer.scss';

@@ -1,0 +1,58 @@
+.discount-section {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("../images/discount-back.jpg");
+    background-size: cover;
+    
+  }
+
+  .discount-title {
+    margin: 70 0 38;
+    text-align: center;
+    text-shadow: 0px 0px 6px #C59B3D;
+    font-family: Source Sans Pro;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #C59B3D 0%, #FFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+    .discount-section-container {
+            margin-bottom: 170px;
+        }
+        
+    .discount-section-item {
+        width: 1100px;
+        max-height: 450px;
+        background: rgba(0, 0, 0, 0.56); 
+        box-shadow: 0px 36px 47px -18px rgba(197, 155, 61, 0.65); 
+        border-radius: 10px; 
+        border: 1px #C59B3D solid;
+    }
+
+    .filter-wrapper--date .date {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 24px;
+        margin-right: 16px;
+        margin-bottom: 40px;
+        @media screen and (min-width: 768px) {
+          margin-right: 16px;
+          margin-bottom: 48px;
+        }
+        @media screen and (min-width: 1280px) {
+          margin-top: 28px;
+          margin-right: 16px;
+          margin-bottom: 40px;
+        }
+      }

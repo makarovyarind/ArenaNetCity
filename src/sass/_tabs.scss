@@ -1,0 +1,334 @@
+.tariffs-section {
+    margin-top: 90px;
+}
+
+.tariffs-title {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center  ;
+    margin: 0 15px;
+    text-align: center;
+    text-shadow: 0px 0px 6px #C59B3D;
+    font-family: Source Sans Pro;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #C59B3D 0%, #FFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tabs__item {
+    color: #fff;
+    padding: 20px 100px;
+    border-radius: 10px;
+    border: 1px solid #797979;
+    background: #000;
+    box-shadow: 0px 36px 47px -18px rgba(121, 121, 121, 0.65);
+    cursor: pointer;
+    margin: 0 10px;
+    transition: border 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.tabs__item:hover, .tabs__item:focus, .tabs__item.active {
+    border: 1px solid #C59B3D;
+    box-shadow: 0px 36px 47px -18px rgba(197, 155, 61, 0.65);
+    transition: border 0.3s, box-shadow 0.3s;
+    color: #C59B3D;
+}
+
+.tabs__block-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.tabs__content-two {
+    background-image: url("../images/tariffs.jpg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.tabs__content-ps { 
+    background-image: url("../images/tariffs.jpg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.tabs__content-xbox { 
+    background-image: url("../images/xbox-bg.jpg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.tabs__block-one,
+.tabs__block-two {
+    width: 100%;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.tariffs__title-box {
+    width: 240px;
+    display: flex;
+    margin-bottom: 120px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px #C59B3D solid;
+    background: black;
+    margin: 80px auto 50px;
+    padding: 0;
+}
+
+.tariffs__title {
+    padding: 10px 50px;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 700;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.tariffs-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.tariffs-section__button {
+    padding: 18px 69px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.37; 
+    color: #fff;
+    background: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(197, 155, 61, 1)) padding-box,
+    linear-gradient(to right, rgba(185, 153, 69, 1), rgba(255, 255, 255, 1)) border-box;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tariffs-section__button:hover,
+.tariffs-section__button:focus,
+.tariffs-section__button:active {
+    color: rgba(185, 153, 69, 1);
+    background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(to right, rgba(255, 255, 255, 1), rgba(185, 153, 69, 1)) border-box;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: border, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.schedule-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.schedule-container-ps {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    margin-top: 15px;
+    background: #C59B3D;
+}
+
+.schedule-box {
+    margin-top: 17px;
+    display: flex;
+    gap: 70px;
+}
+
+.time {
+    flex: 1;
+    position: relative;
+    text-align: center;
+    color: #C59B3D;
+    font-size: 48px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    line-height: 34.39px;
+    word-wrap: break-word;
+    margin-top: 15px;
+}
+
+.price-one,
+.price-two,
+.price-tree {
+    flex: 1;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.price-one::after {
+    content: "VIP ZONE + 25 грн.";
+    color: #fff;
+    font-size: 24px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    position: absolute;
+    top: -10px;
+    left: 55%;
+    white-space: nowrap;
+}
+
+.price-two::after {
+    content: "VIP ZONE + 10 грн.";
+    color: #fff;
+    font-size: 24px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    position: absolute;
+    top: -10px;
+    left: 55%;
+    white-space: nowrap;
+}
+
+.price-tree::after {
+    content: "VIP ZONE + 10 грн.";
+    color: #fff;
+    font-size: 24px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    position: absolute;
+    top: -10px;
+    left: 55%;
+    white-space: nowrap;
+}
+
+.price-number {
+    color: white;
+    font-size: 96px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.price-currency {
+    color: white;
+    font-size: 40px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.gradient-circle {
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(90deg, #C59B3D 0%, white 100%);
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+.vip-zone {
+    flex: 1;
+    position: relative;
+    color: white;
+    font-size: 24px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-top: 10px;
+}
+
+.person {
+    display: flex;
+    position: relative;
+    text-align: center;
+    color: #C59B3D;
+    font-size: 48px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    word-wrap: break-word;
+
+}
+
+.person-text-ps {
+    flex: 1;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.person-number {
+    color: #C59B3D;
+    font-size: 96px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    word-break: break-word;
+}
+
+.person-name {
+    color: #C59B3D;
+    font-size: 40px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    word-break: break-word;
+}
+
+.price-ps {
+    flex: 1;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.price-ps::after {
+    content: "VIP ZONE + 10 грн.";
+    color: #fff;
+    font-size: 24px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    position: absolute;
+    top: -10px;
+    left: 55%;
+    white-space: nowrap;
+}
+
+.price-xbox {
+    flex: 1;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.tariffs-button-container-vr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.tabs__content-vr {
+    background-image: url("../images/vr-bg.jpg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
