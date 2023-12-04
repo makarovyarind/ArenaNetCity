@@ -2,20 +2,20 @@
   "name": "arenanetcity",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://makarovyarind.github.io/arenanetcity/",
+  "homepage": "https://makarovyarind.github.io/ArenaNetCity/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /parcel-project-template/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://makarovyarind.github.io/arenanetcity/"
+    "url": "git+https://makarovyarind.github.io/ArenaNetCity/"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://makarovyarind.github.io/arenanetcity/issues"
+    "url": "https://makarovyarind.github.io/ArenaNetCity/issues"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
