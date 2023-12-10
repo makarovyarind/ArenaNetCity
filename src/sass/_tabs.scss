@@ -1,5 +1,17 @@
 .tariffs-section {
-    margin-top: 90px;
+    @media screen and (min-width: 414px){
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    @media screen and (min-width: 1024px) {
+        
+    }
+    
+    @media screen and (min-width: 1280px) {
+        display: block;
+        margin-top: 90px;
+    }
 }
 
 .tariffs-title {
@@ -332,3 +344,4 @@
     background-repeat: no-repeat;
     background-size: auto;
 }
+

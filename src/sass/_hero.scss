@@ -81,7 +81,10 @@
        
 
         @media screen and (min-width: 414px) {
-        
+            display: flex;
+            justify-content:flex-start;
+            align-items: start;
+            flex-wrap: wrap;
         }
     
         @media screen and (min-width: 1024px) {
@@ -106,6 +109,14 @@
     }
 
     &__text {
+
+        @media screen and (min-width: 414px) {
+                font-size: 18px;
+            }
+            
+        @media screen and (min-width: 1024px) {
+            font-size: 22px;
+        }
         padding-left: 20px;
         font-family: 'Open Sans';
         font-style: normal;
@@ -115,7 +126,14 @@
         color: #fff;
     }
 
-    &__icon {
+    &__icon { 
+        @media screen and (min-width: 414px) {
+                width: 27px;
+                height: 40px;
+            }
+
+        width: 37px; 
+        height: 50px;
         fill: rgba(197, 155, 61, 1);
     }
 

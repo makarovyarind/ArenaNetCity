@@ -1,0 +1,13 @@
+.tabs-mobile-section{
+    @media screen and (min-width: 414px){
+        display: block;
+    }
+    
+    @media screen and (min-width: 1024px) {
+        display: block;
+    }
+    
+    @media screen and (min-width: 1280px) {
+        display: none;
+    }
+}
