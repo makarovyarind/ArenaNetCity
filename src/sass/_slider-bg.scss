@@ -1,6 +1,7 @@
 .slider-bg-section {
     padding-top: 100px;
     padding-bottom: 100px;
+    
     margin-top: 80px;
     position: relative;
     background-image: url("../images/slider-bg-one.png");
@@ -38,7 +39,9 @@
 
 .slider-bg-title {
     color: white;
-    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 24px;
     font-family: Source Sans Pro;
     font-weight: 900;
     text-transform: uppercase;
@@ -50,7 +53,7 @@
 
 .slider-bg-title-second {
     color: white;
-    font-size: 30px;
+    font-size: 24px;
     font-family: Source Sans Pro;
     font-weight: 900;
     text-transform: uppercase;
