@@ -13,9 +13,32 @@
         <a href="tel:0936168574">
             <button class="nav__button" type="button">Забронювати</button>
         </a>
+        <button class="nav__icon-button open-button" type="button" onclick="openMenu()">
         <svg class="nav__icon" width="30" height="19">
             <use href="./images/symbol-defs.svg#icon-Group-29"></use>
         </svg>
+        </button>
         </div>
     </div>
 </header>
+
+<script>
+        function openMenu() {
+                document.getElementById("side-menu").style.left = "0";
+                document.querySelector('.overlay-menu').style.display = 'block';
+                document.addEventListener('keydown', closeMenuOnEscape);
+            }
+
+            function closeMenu() {
+                document.getElementById("side-menu").style.left = "-100%";
+                document.querySelector('.overlay-menu').style.display = 'none';
+                document.removeEventListener('keydown', closeMenuOnEscape);
+            }
+
+            function closeMenuOnEscape(event) {
+                if (event.key === 'Escape') {
+                    closeMenu();
+                }
+            }
+
+</script>

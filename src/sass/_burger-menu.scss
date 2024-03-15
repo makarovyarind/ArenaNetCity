@@ -1,0 +1,112 @@
+.container {
+    position: relative;
+}
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -120%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0.9;
+    transition: left 0.3s ease;
+    z-index: 1000;
+    border-right: 1px solid #F6F6F6;
+    font-family: 'Source Sans Pro';
+}
+
+.open-button {
+    margin: 0;
+    padding: 0;
+}
+
+.close-button {
+    position: absolute;
+    top: 133px;
+    right: 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Source Sans Pro';
+}
+
+.overlay-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #02020275;
+    display: none;
+    z-index: 999;
+}
+
+.side-menu-content {
+    padding: 20px;
+    color: white;
+    font-family: 'Source Sans Pro';
+}
+
+.list-menu {
+    padding: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 133px;
+    list-style-type: none;
+    font-family: 'Source Sans Pro';
+}
+
+.list-menu-second {
+    padding: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 80px;
+    list-style-type: none;
+    font-family: 'Source Sans Pro';
+}
+
+.menu-phone {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 12px;
+}
+
+.menu-phone-description,
+.list-menu-title,
+.menu-item {
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+}
+
+.menu-item:hover {
+    color: #C59B3D;
+}
+
+.menu-item:focus {
+    color: #C59B3D;
+}
+
+.menu-social-container {
+    margin: 0;
+    padding: 0px 16px;
+}
+
+.menu-social {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 12px;
+}
+
+.menu-social-title {
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+}

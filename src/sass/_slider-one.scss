@@ -1,12 +1,14 @@
 .discount-section {
-    margin-top: 90px;
+    margin-top: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
-
     background-image: url("../images/discount-back.jpg");
-    background-size: cover;
+      background-size: fill;
     
+      @media screen and (min-width: 1280px) {
+        margin-top: 90px;
+      }
   }
 
   .discount-title {
@@ -14,7 +16,7 @@
     text-align: center;
     text-shadow: 0px 0px 6px #C59B3D;
     font-family: Source Sans Pro;
-    font-size: 110px;
+    font-size: 85px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -23,19 +25,36 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @media screen and (min-width: 1024px) {
+      font-size: 100px;
+      }
+
+    @media screen and (min-width: 1280px) {
+      font-size: 110px;
+      }
     }
 
     .discount-section-container {
-            margin-bottom: 170px;
+            margin-bottom: 30px; 
+            @media screen and (min-width: 1280px) {
+                margin-bottom: 170px;
+              }
         }
         
     .discount-section-item {
-        width: 1100px;
-        max-height: 450px;
+      display: flex;
+        width: 80%;
+        justify-content: center;
+        max-height: 150px;
         background: rgba(0, 0, 0, 0.56); 
         box-shadow: 0px 36px 47px -18px rgba(197, 155, 61, 0.65); 
         border-radius: 10px; 
         border: 1px #C59B3D solid;
+
+        @media screen and (min-width: 1280px) {
+            max-height: 450px;
+          }
     }
 
     .filter-wrapper--date .date {

@@ -1,11 +1,8 @@
 .tariffs-section {
-    @media screen and (min-width: 414px){
+    @media screen and (min-width: 300px){
         display: flex;
         flex-wrap: wrap;
-    }
-    
-    @media screen and (min-width: 1024px) {
-        
+        justify-content: center;
     }
     
     @media screen and (min-width: 1280px) {
@@ -15,23 +12,52 @@
 }
 
 .tariffs-title {
-    margin-bottom: 0;
+
+    @media screen and (min-width: 300px){
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    @media screen and (min-width: 1024px) {
+        margin-bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 15px;
+            text-align: center;
+            text-shadow: 0px 0px 6px #C59B3D;
+            font-family: Source Sans Pro;
+            font-size: 110px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            text-transform: uppercase;
+            background: linear-gradient(180deg, #C59B3D 0%, #FFF 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+    }
+    
+}
+
+.tabs__nav {
     display: flex;
-    align-items: center;
-    justify-content: center  ;
-    margin: 0 15px;
-    text-align: center;
-    text-shadow: 0px 0px 6px #C59B3D;
-    font-family: Source Sans Pro;
-    font-size: 110px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    text-transform: uppercase;
-    background: linear-gradient(180deg, #C59B3D 0%, #FFF 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        @media screen and (min-width: 1024px) {
+                display: flex;
+                flex-direction: row;
+                
+            }
+
+    @media screen and (min-width: 1280px) {
+        display: block;
+        flex-wrap: nowrap;
+        }
 }
 
 .tabs__item {
@@ -56,10 +82,12 @@
 }
 
 .tabs__block-box {
+    @media screen and (min-width: 1024px) {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10%;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+        }
 }
 
 .tabs__content-two {
@@ -174,20 +202,51 @@
 .schedule-box {
     margin-top: 17px;
     display: flex;
-    gap: 70px;
+    gap: 28px;
+    
+    @media screen and (min-width: 1280px) {
+        
+        gap: 70px;
+        }
 }
 
 .time {
-    flex: 1;
-    position: relative;
-    text-align: center;
-    color: #C59B3D;
-    font-size: 48px;
-    font-family: Source Sans Pro;
-    font-weight: 700;
-    line-height: 34.39px;
-    word-wrap: break-word;
-    margin-top: 15px;
+    @media screen and (min-width: 300px) {
+            position: relative;
+                text-align: center;
+                color: #C59B3D;
+                font-size: 32px;
+                font-family: Source Sans Pro;
+                font-weight: 700;
+                line-height: 34.39px;
+                word-wrap: break-word;
+                margin-top: 15px;
+        }
+                @media screen and (min-width: 1024px) {
+                    position: relative;
+                    text-align: center;
+                    color: #C59B3D;
+                    font-size: 30px;
+                    font-family: Source Sans Pro;
+                    font-weight: 700;
+                    line-height: 34.39px;
+                    word-wrap: break-word;
+                    margin-top: 15px;
+                }
+    
+        @media screen and (min-width: 1280px) {
+            flex: 1;
+                position: relative;
+                text-align: center;
+                color: #C59B3D;
+                font-size: 48px;
+                font-family: Source Sans Pro;
+                font-weight: 700;
+                line-height: 34.39px;
+                word-wrap: break-word;
+                margin-top: 15px;
+        }
+    
 }
 
 .price-one,
@@ -200,47 +259,119 @@
 }
 
 .price-one::after {
-    content: "VIP ZONE + 25 грн.";
-    color: #fff;
-    font-size: 24px;
-    font-family: Source Sans Pro;
-    font-weight: 700;
-    position: absolute;
-    top: -10px;
-    left: 55%;
-    white-space: nowrap;
+
+    @media screen and (min-width: 300px) {
+            content: "VIP ZONE + 25 грн.";
+                color: #fff;
+                font-size: 14px;
+                font-family: Source Sans Pro;
+                font-weight: 700;
+                position: absolute;
+                top: -10px;
+                left: 55%;
+                white-space: nowrap;
+        }
+    
+        @media screen and (min-width: 1024px) {
+            content: "VIP ZONE + 25 грн.";
+                color: #fff;
+                font-size: 20px;
+                font-family: Source Sans Pro;
+                font-weight: 700;
+                position: absolute;
+                top: -10px;
+                left: 55%;
+                white-space: nowrap;
+        }
+    
+        @media screen and (min-width: 1280px) {
+            content: "VIP ZONE + 25 грн.";
+                color: #fff;
+                font-size: 24px;
+                font-family: Source Sans Pro;
+                font-weight: 700;
+                position: absolute;
+                top: -10px;
+                left: 55%;
+                white-space: nowrap;
+        }
+    
 }
 
 .price-two::after {
-    content: "VIP ZONE + 10 грн.";
-    color: #fff;
-    font-size: 24px;
-    font-family: Source Sans Pro;
-    font-weight: 700;
-    position: absolute;
-    top: -10px;
-    left: 55%;
-    white-space: nowrap;
+
+    @media screen and (min-width: 300px) {
+            content: "VIP ZONE + 10 грн.";
+                color: #fff;
+                font-size: 14px;
+                font-family: Source Sans Pro;
+                font-weight: 700;
+                position: absolute;
+                top: -10px;
+                left: 55%;
+                white-space: nowrap;
+        }
+    
+    @media screen and (min-width: 1024px) {
+            content: "VIP ZONE + 10 грн.";
+                color: #fff;
+                font-size: 20px;
+                font-family: Source Sans Pro;
+                font-weight: 700;
+                position: absolute;
+                top: -10px;
+                left: 55%;
+                white-space: nowrap;
+        }
+    
+    @media screen and (min-width: 1280px) {
+            content: "VIP ZONE + 10 грн.";
+                color: #fff;
+                font-size: 24px;
+                font-family: Source Sans Pro;
+                font-weight: 700;
+                position: absolute;
+                top: -10px;
+                left: 55%;
+                white-space: nowrap;
+        }
+    
 }
 
 .price-tree::after {
     content: "VIP ZONE + 10 грн.";
-    color: #fff;
+        color: #fff;
+        font-size: 14px;
+        font-family: Source Sans Pro;
+        font-weight: 700;
+        position: absolute;
+        top: -10px;
+        left: 55%;
+        white-space: nowrap;
+@media screen and (min-width: 1024px) {
+font-size: 20px;
+}
+
+    @media screen and (min-width: 1280px) {
     font-size: 24px;
-    font-family: Source Sans Pro;
-    font-weight: 700;
-    position: absolute;
-    top: -10px;
-    left: 55%;
-    white-space: nowrap;
+    }
+    
 }
 
 .price-number {
     color: white;
-    font-size: 96px;
+    font-size: 65px;
     font-family: Source Sans Pro;
     font-weight: 700;
     word-wrap: break-word;
+
+    @media screen and (min-width: 1024px) {
+            font-size: 80px;
+        }
+    
+        @media screen and (min-width: 1280px) {
+            font-size: 96px;
+        }
 }
 
 .price-currency {
@@ -291,10 +422,18 @@
 
 .person-number {
     color: #C59B3D;
-    font-size: 96px;
+    font-size: 65px;
     font-family: Source Sans Pro;
     font-weight: 700;
     word-break: break-word;
+
+    @media screen and (min-width: 1024px) {
+            font-size: 80px;
+        }
+    
+        @media screen and (min-width: 1280px) {
+            font-size: 96px;
+        }
 }
 
 .person-name {
@@ -315,13 +454,21 @@
 .price-ps::after {
     content: "VIP ZONE + 10 грн.";
     color: #fff;
-    font-size: 24px;
+    font-size: 14px;
     font-family: Source Sans Pro;
     font-weight: 700;
     position: absolute;
     top: -10px;
     left: 55%;
     white-space: nowrap;
+
+    @media screen and (min-width: 1024px) {
+            font-size: 20px;
+        }
+    
+        @media screen and (min-width: 1280px) {
+            font-size: 24px;
+        }
 }
 
 .price-xbox {
