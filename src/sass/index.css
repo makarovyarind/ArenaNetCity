@@ -607,21 +607,21 @@ h3 {
   background-image: url("../images/tariffs.jpg");
   background-position: bottom right;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 .tabs__content-ps {
   background-image: url("../images/tariffs.jpg");
   background-position: bottom right;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 .tabs__content-xbox {
   background-image: url("../images/xbox-bg.jpg");
   background-position: bottom right;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 .tabs__block-one,
@@ -955,10 +955,15 @@ h3 {
 
 .person-name {
   color: #C59B3D;
-  font-size: 40px;
+  font-size: 30px;
   font-family: Source Sans Pro;
   font-weight: 700;
   word-break: break-word;
+}
+@media screen and (min-width: 1024px) {
+  .person-name {
+    font-size: 40px;
+  }
 }
 
 .price-ps {
@@ -1009,6 +1014,15 @@ h3 {
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: auto;
+}
+
+.tabs__nav-btn {
+  padding: 20px 35px;
+}
+@media screen and (min-width: 1024px) {
+  .tabs__nav-btn {
+    padding: 20px 100px;
+  }
 }
 
 .discount-section {

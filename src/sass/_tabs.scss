@@ -48,11 +48,10 @@
         justify-content: center;
         position: relative;
 
-        @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
                 display: flex;
                 flex-direction: row;
-                
-            }
+        }
 
     @media screen and (min-width: 1280px) {
         display: block;
@@ -94,21 +93,21 @@
     background-image: url("../images/tariffs.jpg");
     background-position: bottom right;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 .tabs__content-ps { 
     background-image: url("../images/tariffs.jpg");
     background-position: bottom right;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 .tabs__content-xbox { 
     background-image: url("../images/xbox-bg.jpg");
     background-position: bottom right;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 .tabs__block-one,
@@ -438,10 +437,14 @@ font-size: 20px;
 
 .person-name {
     color: #C59B3D;
-    font-size: 40px;
+    font-size: 30px;
     font-family: Source Sans Pro;
     font-weight: 700;
     word-break: break-word;
+
+    @media screen and (min-width: 1024px) {
+            font-size: 40px;
+        }
 }
 
 .price-ps {
@@ -492,3 +495,10 @@ font-size: 20px;
     background-size: auto;
 }
 
+.tabs__nav-btn {
+    padding: 20px 35px;
+
+    @media screen and (min-width: 1024px) {
+            padding: 20px 100px;
+        }
+}
